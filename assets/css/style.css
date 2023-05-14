@@ -1,0 +1,128 @@
+#banner{
+    background-image: url(/assets/img/Banner\ gobo.webp);
+    background-size: cover;
+}
+
+#banner .container{
+    padding: 0rem 2rem;
+}
+
+
+#banner .container .bannertxt {
+    
+    margin-left: -1%;
+    background-color: rgb(46, 46, 46);
+    width: 40%;
+    height: 100vh;
+    opacity: 0.7;
+    padding: 10rem 0rem;
+  }
+  
+  #banner .container .bannertxt h2{
+    margin: 5%;
+    font-weight: bold;
+    color: rgba(255, 255, 0, 0.781);
+  }
+  #banner .container .bannertxt p{
+    margin: 5%;
+    font-weight: bold;
+    color: white;
+  }
+
+#welcome {
+ background-color: rgba(119, 128, 0, 0.342);
+}
+#welcome .container{
+    padding: 3rem 0rem;
+    padding-left: 1rem;
+}
+#projects .container{
+  margin: 4rem auto;
+}
+
+#projects .container .header h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid rgb(182, 181, 181); 
+  line-height: 0.1em;
+  margin: 2rem auto; 
+  margin-bottom: 4rem;
+} 
+
+#projects .container .header h2 span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+
+#whoweare .container .header h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid rgb(182, 181, 181); 
+  line-height: 0.1em;
+  margin: 2rem auto; 
+  margin-bottom: 4rem;
+} 
+
+#whoweare .container .header h2 span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+
+#clients{
+  background-image: url(/assets/img/backgroun\ for\ sponsors.jpg);
+  background-size: cover;
+}
+
+#clients .container{
+ padding: 5rem 0rem;
+}
+
+#clients .container .header h2 {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  
+  
+}
+#clients .container .header h2:before, #clients .container .header h2:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+#clients .container .header h2:before {
+  margin-right: 10px
+}
+#clients .container .header h2:after {
+  margin-left: 10px
+}
+
+#clients .container .header p{
+  padding: 0rem 13rem;
+  
+}
+#sponsors{
+  background-color: rgba(119, 128, 0, 0.342);
+}
+
+#sponsors .container{
+ padding: 2rem 0rem;
+}
+#sponsors .container .images{
+  display: flex;
+  display: inline;
+  padding: 3rem;
+ 
+}
+#sponsors .container .images img{
+  width:11%;
+  filter: grayscale(100);
+}
+#sponsors .container .images img:hover{
+  filter: grayscale(0);
+  transform: scale(1.2) all 2s ease;
+}
+.footer .container .icons{
+  display: flex;
+  justify-content: center;
+}
